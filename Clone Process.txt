@@ -20,33 +20,26 @@ Capturando a imagem .wim
 3. Dism /Capture-Image /ImageFile:"E:\Imagens\Nome.wim" /CaptureDir:C:\ /Name:Descricao
 	(Onde E:\ é a unidade flash ou outro storage)
 4. Aguardar finalizar.
-5. Remover o HD (ou storage), o flashdisk
-6. Exit
+5. Remover o HD (ou storage) e o flashdisk.
+6. Exit.
 
 Aplicando a imagem
-1. Atualizar a BIOS e Chipset. (testar nos novos antes de atualizar)
-2. Attachar o HD externo
-3. F12 Boot pelo WinPE
+1. Atualizar a BIOS e Chipset. (testar nos novos antes de atualizar).
+****	(manter o arquivo Intel-Management-Engine-Components-Installer_WHTW2_WIN_2117.15.0.2272_A03 no raiz do HD externo) ****
+2. F12 Boot pelo WinPE
+3. Aguardar finalizar o boot e attachar o HD externo.
 4. D:\ para acessar os scripts
 5. Executar script "LimparDisco.bat"
 6. Executar o script "Clonar.bat"
-7. Escolher o modelo
+7. Escolher o modelo. (1,2,3...)
 8. Recuperar particao? Y
 9. OS Compacto?  Y
 10. Atrrib estendidos: N
-11. Exit
-12. Religar o wi-fi
-13. Renomear e colocar no domínio
+11. Exit.
+12. Religar o wi-fi.
+13. Renomear e colocar no domínio.
 14. Em caso de falha utilizar o script "Recuperar.bat" e recomeçar.
 
-> Diskpart
->> List disk
-
-PRIOSysPrep.wim
-PRIOLatitude3410.wim
-
-
-Mx9_Ln6&
 
 Incrementar Menu .bat
 https://www.sevenforums.com/tutorials/78083-batch-files-create-menu-execute-commands.html
@@ -57,12 +50,9 @@ https://docs.microsoft.com/pt-br/windows/deployment/configure-a-pxe-server-to-lo
 
 
 Fonte:
-CMD Builder: https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/system-builder-deployment-of-windows-10-for-desktop-editions
-Criação do flash WINPE: https://docs.microsoft.com/pt-br/windows-hardware/manufacture/desktop/winpe-create-usb-bootable-drive
-Capturar e aplicar a imagem . wim https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/capture-and-apply-windows-using-a-single-wim
-Scripts: https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/windows-deployment-sample-scripts-sxs#keeping-windows-settings-through-a-recovery
-Customizações: https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/windows-deployment-sample-scripts-sxs#CreatePartitions-_firmware_.txt
-
-https://www.youtube.com/watch?v=7ycFW19IUNI&ab_channel=TechDeskVlogs
-
-
+CMD Builder: https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/system-builder-deployment-of-windows-10-for-desktop-editions 
+Criação do flash WINPE: https://docs.microsoft.com/pt-br/windows-hardware/manufacture/desktop/winpe-create-usb-bootable-drive 
+Capturar e aplicar a imagem . wim https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/capture-and-apply-windows-using-a-single-wim 
+Scripts: https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/windows-deployment-sample-scripts-sxs#keeping-windows-settings-through-a-recovery 
+Customizações: https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/windows-deployment-sample-scripts-sxs#CreatePartitions-_firmware_.txt 
+Another video source: https://www.youtube.com/watch?v=7ycFW19IUNI&ab_channel=TechDeskVlogs 
