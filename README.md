@@ -56,9 +56,13 @@ https://docs.microsoft.com/pt-br/windows/deployment/configure-a-pxe-server-to-lo
 
 Fonte:
 CMD Builder: https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/system-builder-deployment-of-windows-10-for-desktop-editions
+
 Criação do flash WINPE: https://docs.microsoft.com/pt-br/windows-hardware/manufacture/desktop/winpe-create-usb-bootable-drive
+
 Capturar e aplicar a imagem . wim https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/capture-and-apply-windows-using-a-single-wim
+
 Scripts: https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/windows-deployment-sample-scripts-sxs#keeping-windows-settings-through-a-recovery
+
 Customizações: https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/windows-deployment-sample-scripts-sxs#CreatePartitions-_firmware_.txt
 
 https://www.youtube.com/watch?v=7ycFW19IUNI&ab_channel=TechDeskVlogs
