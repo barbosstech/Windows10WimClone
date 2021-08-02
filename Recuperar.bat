@@ -1,0 +1,1 @@
+D:\ApplyRecovery.bat

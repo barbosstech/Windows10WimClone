@@ -26,16 +26,15 @@ IF %M%==4 GOTO SDA
 IF %M%==5 GOTO EXIT
 IF %M%==6 GOTO EXIT
 :3410
-D:\ApplyImage.bat
+D:\ApplyImage.bat E:\Imagens\PRIOLatitude3410.wim
 GOTO MENU
 :7000
-D:\ApplyImage1.bat
+D:\ApplyImage1.bat E:\Imagens\PRIOLatitude3410.wim
 GOTO MENU
 :GEN
-D:\ApplyImageGeneric.bat
+D:\ApplyImageGeneric.bat E:\Imagens\PRIOSysPrep.wim
 GOTO MENU
 :SDA
-D:\ApplyImageOnLinux.bat
-GOTO MENU
+D:\ApplyImageOnLinux.bat C:\Imagens\PRIOSysPrep.wim
 :EXIT
 GOTO MENU
