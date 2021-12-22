@@ -1,1 +1,1 @@
-D:\ApplyImage1.bat E:\Imagens\PRIOLatitude3410.wim
+D:\ApplyImage.bat E:\Imagens\PRIOLatitude3410.wim
