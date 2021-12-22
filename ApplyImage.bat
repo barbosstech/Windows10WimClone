@@ -5,7 +5,7 @@ cls
 @echo.
 @echo	MANTENHA O COMPUTADOR CONECTADO NA FONTE!
 @echo	Script de clone de imagem .wim para Windows 10 2H21.
-@echo	Por Carlos Eduardo Barbosa - Julho/21 v1.0
+@echo	Por Carlos Eduardo Barbosa - Dezembro/21 v2.0
 @echo.
 @echo *********************************************************************
 @echo.
